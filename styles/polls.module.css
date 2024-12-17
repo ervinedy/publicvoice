@@ -1,0 +1,50 @@
+/* Background and Page Styling for Polls Page */
+.pageContainer {
+  background-image: url('/images/background.jpg'); /* Same background as homepage */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Centers everything vertically */
+  text-align: center;
+}
+
+/* Polls Page Content Styling */
+.pollsContainer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Transparent background for readability */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.questionContainer {
+  margin-bottom: 20px;
+}
+
+.voteButton {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.voteButton:hover {
+  background-color: #0056b3;
+}
+
+/* Add any other specific styles for the polls here */
